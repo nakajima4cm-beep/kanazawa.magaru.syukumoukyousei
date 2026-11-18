@@ -1,0 +1,35 @@
+# Canonical page and assigned production host aliases.
+/index.html https://magaru.4cm.jp/ 301!
+https://venerable-chimera-5843f0.netlify.app/* https://magaru.4cm.jp/:splat 301!
+http://venerable-chimera-5843f0.netlify.app/* https://magaru.4cm.jp/:splat 301!
+http://magaru.4cm.jp/* https://magaru.4cm.jp/:splat 301!
+# www rules become effective only if that hostname is assigned and DNS/TLS are configured.
+https://www.magaru.4cm.jp/* https://magaru.4cm.jp/:splat 301!
+http://www.magaru.4cm.jp/* https://magaru.4cm.jp/:splat 301!
+
+# Preserve old public asset URLs after optimization.
+/assets/ba-after-01-public.png /assets/mens-straightening-after-01.e2e3ee3b3e.webp 301
+/assets/ba-after-02.jpg /assets/mens-straightening-after-02.ebbeb1b55b.webp 301
+/assets/ba-after-03-face-blurred.png /assets/mens-straightening-after-03-blurred.334a1ed3a0.webp 301
+/assets/ba-before-01-public.png /assets/mens-straightening-before-01.bc517ccd2b.webp 301
+/assets/ba-before-02.jpg /assets/mens-straightening-before-02.70028bb4b4.webp 301
+/assets/ba-before-03.jpg /assets/mens-straightening-before-03.b012168e9d.webp 301
+/assets/concept-model.webp /assets/natural-hair-flow-image-ai.8a82f7880a.webp 301
+/assets/footer-interior.webp /assets/4cm-salon-interior.03468c6bf6.webp 301
+/assets/hero-top-mobile.png /assets/kanazawa-mens-magaru-straightening-mobile.c360918769.webp 301
+/assets/hero-top-public.png /assets/kanazawa-mens-magaru-straightening-desktop.e1d7b75971.webp 301
+/assets/reservation-model.webp /assets/mens-wavy-hair-before.806da547cd.webp 301
+/assets/style-01.webp /assets/mens-style-01.86156524b3.webp 301
+/assets/style-02.webp /assets/mens-style-side-02.d753eb0d90.webp 301
+/assets/style-03.webp /assets/mens-style-back-03.d13755c58d.webp 301
+/assets/style-04.webp /assets/center-part-style-image-ai.3a46890465.webp 301
+/assets/style-05.webp /assets/side-part-style-image-ai.6b04f452f8.webp 301
+/assets/stylist-01.webp /assets/mizuguchi-ukyo-nonoichi.55ddd92ca0.webp 301
+/assets/stylist-02.webp /assets/sugiki-yokogawa.5ac98a0f99.webp 301
+/assets/why-01.webp /assets/mens-hair-counseling-image-ai.02aeb115c4.webp 301
+/assets/why-02.webp /assets/straightening-product-selection-image-ai.c8b5ded1f6.webp 301
+/assets/why-03.webp /assets/mens-haircut-design-image-ai.b9b2637745.webp 301
+/assets/why-04.webp /assets/easy-morning-styling-image-ai.f6a6108a6f.webp 301
+/assets/favicon.svg /assets/favicon-4cm.56869d5b1d.svg 301
+/assets/social-share.png /assets/4cm-mens-straightening-share.87d30ca736.png 301
+/assets/site.css /assets/site.3050ec1f31.css 301

@@ -1,0 +1,12 @@
+# Local and work files
+.DS_Store
+._*
+.env
+.env.*
+work/
+outputs/
+received/
+.openai/
+node_modules/
+*.zip
+*.log
